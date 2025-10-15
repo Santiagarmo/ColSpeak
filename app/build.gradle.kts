@@ -2,15 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
 
     // Add the Google services Gradle plugin
-    id("com.google.gms.google-services")
+    //id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.speak"
+    namespace = "com.example.colspeak"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.speak"
+        applicationId = "com.example.colspeak"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
@@ -83,10 +83,10 @@ dependencies {
     implementation(libs.constraintlayout)
     
     // Firebase
-    implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.firebase:firebase-database")
+    //implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    //implementation("com.google.firebase:firebase-analytics")
+    //implementation("com.google.firebase:firebase-auth")
+    //implementation("com.google.firebase:firebase-database")
 
     // Testing
     testImplementation("junit:junit:4.13.2") {

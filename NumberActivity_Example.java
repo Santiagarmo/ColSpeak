@@ -1,7 +1,7 @@
 // EJEMPLO DE IMPLEMENTACIÓN DEL COMPONENTE REUTILIZABLE EN NUMBERACTIVITY
 // Este es un ejemplo de cómo migrar NumberActivity para usar ReusableAudioPlayerCard
 
-package com.example.speak;
+package com.example.colspeak;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.speak.components.ReusableAudioPlayerCard;
+import com.example.colspeak.components.ReusableAudioPlayerCard;
 
 public class NumberActivity extends AppCompatActivity {
     private static final String TAG = "NumberActivity";
@@ -132,7 +132,7 @@ PASOS PARA MIGRAR NUMBERACTIVITY:
 1. MODIFICAR EL LAYOUT (activity_number.xml):
    - Reemplazar todo el control de audio existente con:
    
-   <com.example.speak.components.ReusableAudioPlayerCard
+   <com.example.colspeak.components.ReusableAudioPlayerCard
        android:id="@+id/reusableAudioPlayerCard"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"

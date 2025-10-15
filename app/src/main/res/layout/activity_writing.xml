@@ -177,7 +177,7 @@
                     android:orientation="vertical"
                     android:padding="8dp">
 
-                    <com.example.speak.components.ReusableAudioPlayerCard
+                    <com.example.colspeak.components.ReusableAudioPlayerCard
                         android:id="@+id/reusableAudioCard"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />

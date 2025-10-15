@@ -109,7 +109,7 @@
                 android:layout_marginEnd="12dp"/>
 
             <!-- AudioPlayerView integrado (como en ListeningActivity) -->
-            <com.example.speak.AudioPlayerView
+            <com.example.colspeak.AudioPlayerView
                 android:id="@+id/audioPlayerView"
                 android:layout_width="0dp"
                 android:layout_height="60dp"

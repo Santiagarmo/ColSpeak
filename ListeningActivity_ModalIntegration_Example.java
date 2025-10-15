@@ -1,9 +1,9 @@
-package com.example.speak;
+package com.example.colspeak;
 
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Button;
-import com.example.speak.helpers.ModalAnimationHelper;
+import com.example.colspeak.helpers.ModalAnimationHelper;
 
 /**
  * EJEMPLO de cómo integrar los modales de alerta en ListeningActivity

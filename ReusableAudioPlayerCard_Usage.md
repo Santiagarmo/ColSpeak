@@ -28,7 +28,7 @@ app/src/main/
 
 ### 1. Agregar al Layout
 ```xml
-<com.example.speak.components.ReusableAudioPlayerCard
+<com.example.colspeak.components.ReusableAudioPlayerCard
     android:id="@+id/reusableAudioPlayerCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

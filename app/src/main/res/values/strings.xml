@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Speak</string>
+    <string name="app_name">ColSpeak</string>
     <string name="text_register">No tengo una cuenta, <b>Registrarse</b></string>
     <string name="start_listening">Iniciar</string>
     <string name="stop_listening">Detener</string>

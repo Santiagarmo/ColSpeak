@@ -208,7 +208,7 @@
                         android:visibility="gone">
 
                         <!-- Visualización de ondas de audio -->
-                        <com.example.speak.AudioPlayerView
+                        <com.example.colspeak.AudioPlayerView
                             android:id="@+id/audioPlayerView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -397,7 +397,7 @@
                     </LinearLayout>
 
                     <!-- Componente reutilizable de audio (TTS-only en Listening) -->
-                    <com.example.speak.components.ReusableAudioPlayerCard
+                    <com.example.colspeak.components.ReusableAudioPlayerCard
                         android:id="@+id/reusableAudioCard"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -576,7 +576,7 @@
     <!-- ============================================================ -->
     <!-- COMPONENTE REUTILIZABLE DE MODAL (REEMPLAZA LOS 2 ANTIGUOS) -->
     <!-- ============================================================ -->
-    <com.example.speak.components.ModalAlertComponent
+    <com.example.colspeak.components.ModalAlertComponent
         android:id="@+id/modalAlertComponent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

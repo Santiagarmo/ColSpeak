@@ -358,7 +358,7 @@
     </androidx.core.widget.NestedScrollView>
 
     <!-- Componente reutilizable de modal de alerta -->
-    <com.example.speak.components.ModalAlertComponent
+    <com.example.colspeak.components.ModalAlertComponent
         android:id="@+id/modalAlertComponent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
