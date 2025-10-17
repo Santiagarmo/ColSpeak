@@ -29,7 +29,7 @@
                 android:focusable="true"
                 android:background="?attr/selectableItemBackground"
                 android:padding="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="22dp"
                 android:layout_gravity="start">
 
                 <ImageView
@@ -42,7 +42,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Volver"
+                    android:text="Return"
                     android:textSize="16sp"
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:scaleType="centerInside"
-                    android:src="@drawable/nube"
+                    android:src="@drawable/longcloud"
                     android:adjustViewBounds="true" />
 
                 <!-- Contenido superpuesto -->
@@ -70,12 +70,12 @@
 
                     <!-- Imagen del tiburón flotante -->
                     <ImageView
-                        android:layout_width="200dp"
-                        android:layout_height="150dp"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
                         android:layout_gravity="center_horizontal"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/sharkwelcom"
-                        android:layout_marginBottom="-40dp"
+                        android:src="@drawable/birdwelcom"
+                        android:layout_marginBottom="-100dp"
                         android:elevation="2dp"/>
 
                     <!-- Card con fondo azul -->
