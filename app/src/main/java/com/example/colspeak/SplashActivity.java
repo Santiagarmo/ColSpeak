@@ -26,38 +26,9 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
-        // Ocultar la barra de estado para pantalla completa
-        getWindow().getDecorView().setSystemUiVisibility(
-            View.SYSTEM_UI_FLAG_FULLSCREEN | 
-            View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
-            View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
-        );
-
-        // Inicializar video
-        splashVideo = findViewById(R.id.splash_video);
-        
-        // Debug: verificar que el video se encuentra
-        if (splashVideo == null) {
-            Log.e("SplashActivity", "splashVideo es null");
-        } else {
-            Log.d("SplashActivity", "splashVideo encontrado");
-        }
-
-        // Configurar video
-        setupVideo();
-
-        // Configurar handler para el splash
-        splashHandler = new Handler(Looper.getMainLooper());
-        splashRunnable = new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashActivity.this, MajorActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        };
+        // Desactivar splash: redirigir inmediatamente a la pantalla principal
+        startActivity(new Intent(SplashActivity.this, MajorActivity.class));
+        finish();
     }
 
     private void setupVideo() {

@@ -74,8 +74,7 @@ xmlns:tools="http://schemas.android.com/tools">
         </activity>
         <activity
             android:name=".SplashActivity"
-            android:exported="false"
-            android:theme="@style/SplashTheme" />
+            android:exported="false" />
         <activity
             android:name=".SecurityConfigActivity"
             android:exported="false" />

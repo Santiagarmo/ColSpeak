@@ -39,7 +39,7 @@
                 android:textStyle="bold"
                 android:gravity="center"
                 android:padding="10dp"
-                android:textColor="@color/white"/>
+                android:textColor="#FF730E"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_guest_login"
@@ -48,7 +48,7 @@
                 android:text="Iniciar como Invitado"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:backgroundTint="#173446"/>
+                android:backgroundTint="#00727D"/>
 
             <Button
                 android:id="@+id/eButtonLogin"
@@ -57,7 +57,7 @@
                 android:text="Iniciar Sesión"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:backgroundTint="#FF9017"/>
+                android:backgroundTint="#FF730E"/>
 
             <TextView
                 android:id="@+id/textRegister"
@@ -79,7 +79,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:scaleType="fitXY"
-                    android:src="@drawable/nube" />
+                    android:src="@drawable/nube_largue" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -91,7 +91,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitCenter"
-                        android:layout_marginTop="80dp"
                         android:src="@drawable/mico_chiva" />
 
                     <TextView
@@ -102,12 +101,12 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:textColor="#008CB9"/>
+                        android:textColor="#00487E"/>
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/marine_animals"
+                        android:src="@drawable/mico_igua_ave"
                         android:scaleType="fitCenter"
                         />
 
@@ -119,7 +118,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:textColor="#008CB9"/>
+                        android:textColor="#FF730E"/>
 
                     <Button
                         android:id="@+id/eButtonLogin2"
@@ -129,7 +128,7 @@
                         android:text="Iniciar Sesión"
                         android:textColor="@color/white"
                         android:textStyle="bold"
-                        android:backgroundTint="#FF9017"/>
+                        android:backgroundTint="#FF730E"/>
 
                     <TextView
                         android:id="@+id/textRegister2"
@@ -139,28 +138,18 @@
                         android:textSize="12sp"
                         android:gravity="center"
                         android:padding="10dp"
-                        android:textColor="#008CB9" />
+                        android:textColor="#00487E" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ColSpeak v1.0.4"
-                        android:textSize="8sp"
+                        android:text="ColSpeak v9.1.1"
+                        android:textSize="12sp"
                         android:gravity="center"
                         android:padding="10dp"
                         android:textColor="@color/black"/>
 
-
                 </LinearLayout>
-
-                <!-- Imagen de olas en la parte inferior -->
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/olas_pie"
-                    android:adjustViewBounds="true"
-                    android:layout_gravity="bottom" />
 
             </FrameLayout>
 
